@@ -17,4 +17,8 @@ public class Bridge {
         bridge =  bridgeMaker.makeBridge(size);
         return bridge;
     }
+
+    public String getDirectionByPosition(int position) {
+        return bridge.get(position);
+    }
 }

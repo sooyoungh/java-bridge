@@ -11,4 +11,8 @@ public class Move {
         moveDirection = Direction.getDirectionByMessage(inputMove);
         return moveDirection;
     }
+
+    public Boolean judgeMove(Direction bridgeDirection) {
+        return bridgeDirection == moveDirection;
+    }
 }
